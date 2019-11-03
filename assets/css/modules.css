@@ -1,12 +1,14 @@
 #logo {
-  position: relative;
-  margin: 1.75em 1.5em 1.5em 1.5em;
+  display: flex;
+  flex-direction: row;
   min-height: 48px;
   cursor: default;
 }
 
   #logo h1 {
-    position: relative;
+    display: flex;
+    justify-content: right;
+    margin: 2vh auto 0 auto;
     color: #fff;
     font-weight: 600;
     font-size: 1em;
@@ -14,16 +16,15 @@
   }
 
   #logo p {
-    position: relative;
-    display: block;
+    display: flex;
+    justify-content: right;
     font-size: 0.6em;
     color: rgba(255, 255, 255, 0.5);
     line-height: 1.25em;
-    margin: 0.5em 0 0 0;
+    margin: auto;
   }
 
   #logo .image {
-    position: absolute;
     left: 0;
     top: 0;
   }
