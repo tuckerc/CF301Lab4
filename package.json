@@ -1,8 +1,8 @@
 {
-  "name": "3-code-challenges",
+  "name": "cf301lab5",
   "version": "1.0.0",
-  "description": "## RWD Name",
-  "main": "app.js",
+  "description": "portfolio site",
+  "main": "server.js",
   "scripts": {
     "test": "jest --coverage --verbose",
     "watch": "jest --watchAll"
