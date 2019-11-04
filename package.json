@@ -1,0 +1,25 @@
+{
+  "name": "3-code-challenges",
+  "version": "1.0.0",
+  "description": "## RWD Name",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --coverage --verbose",
+    "watch": "jest --watchAll"
+  },
+  "keywords": [],
+  "author": "Chase Tucker",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1",
+    "jest": "^24.1.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tuckerc/CF301Lab4.git"
+  },
+  "bugs": {
+    "url": "https://github.com/tuckerc/CF301Lab4/issues"
+  },
+  "homepage": "https://github.com/tuckerc/CF301Lab4#readme"
+}
