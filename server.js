@@ -1,11 +1,20 @@
 'use strict';
 
+require('dotenv').config();
+
 const express = require('express');
+const cors = require('cors');
+
 const app = express();
-const port = process.env.PORT;
+
+const PORT = process.env.PORT || 3000;
+
+//setting middleware
+app.use(express.static('public'))
+app.use(cors());
 
 app.get('*', (req, res) => {
-  res.sendFile(__dirname + '/index.html');
+  res.sendFile(__dirname + '/public/index.html');
 });
 
-app.listen(port, () => console.log(`server listening on ${port}`));
+app.listen(PORT, () => console.log(`listening on http://localhost:${PORT}`));
